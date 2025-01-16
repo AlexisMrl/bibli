@@ -41,6 +41,8 @@ _
 
 *** 2.4 Longueur de déphasage L_{\phi}
 Distance moyenne parcourue par un e- avant que sa *phase quantique soit rendue aléatoire*.
+== Distance moyenne qu'un e- parcours dans un temps \tau_{\phi}
+
 L_{\phi} > L_m
 
 Interféromètre => déphasage induit par le chemin suivi
