@@ -31,7 +31,16 @@ Distance moyenne parcourue par un e- avant que son *impulsion change* en raison 
 
 **** Diffusion élastique:
 E inchangé
+
 **** Diffusion inélastique:
 E changé
 
-Diffusion avec des diffuseurs ayant des degrés de liberté internes (élastique ou inélastique).
+**** Diffusion avec des diffuseurs ayant des degrés de liberté internes (élastique ou inélastique).
+_ 
+
+
+*** 2.4 Longueur de déphasage L_{\phi}
+Distance moyenne parcourue par un e- avant que sa *phase quantique soit rendue aléatoire*.
+
+Interféromètre => déphasage induit par le chemin suivi
+
