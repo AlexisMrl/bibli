@@ -30,19 +30,21 @@
 Distance moyenne parcourue par un e- avant que son *impulsion change* en raison d'une collision.
 
 **** Diffusion élastique:
-E inchangé
+E inchangé.
 
 **** Diffusion inélastique:
-E changé
+E changé. (ex: e--phonon, e--e-)
+Se fait de plus en plus rare quand T diminue:
+     une collision inélastique == un "perte" d'énergie du e- (conversion).
+     a T=0, l'e- ne peut pas baisser son énergie, donc il n'y a pas de collision inélastiques.
 
 **** Diffusion avec des diffuseurs ayant des degrés de liberté internes (élastique ou inélastique).
-_ 
+ex: impuretés magnétiques 
 
 
 *** 2.4 Longueur de déphasage L_{\phi}
 Distance moyenne parcourue par un e- avant que sa *phase quantique soit rendue aléatoire*.
 == Distance moyenne qu'un e- parcours dans un temps \tau_{\phi}
-
 L_{\phi} > L_m
 
 Interféromètre => déphasage induit par le chemin suivi
