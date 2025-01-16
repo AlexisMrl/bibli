@@ -41,6 +41,9 @@ _
 
 *** 2.4 Longueur de déphasage L_{\phi}
 Distance moyenne parcourue par un e- avant que sa *phase quantique soit rendue aléatoire*.
+L_{\phi} > L_m
 
 Interféromètre => déphasage induit par le chemin suivi
+
+La diffusion élastique ne produit pas de déphasage.
 
