@@ -76,4 +76,8 @@ densité de courant dans un cristal:
     de \vec{v}_{K,n} g_{K,n}
   avec g l'occupation de l'état |\vec{K},n>
 
+Sachant que à l'équilibre, g_{K,n} suis l'occupation de Fermi-Dirac:
+    g = f = 1 / [exp(\beta(E_{K,n} - \mu) + 1)]
+    avec mu le potential chimique
+
 * Chapitre II - c
