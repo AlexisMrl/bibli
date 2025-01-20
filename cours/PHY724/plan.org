@@ -58,6 +58,7 @@ La diffusion élastique ne produit pas de déphasage.
 *** 2.6 Quelques valeurs numériques
 
 ** 3 - Transport semi-classique
+
 *** 3.1 Conductivité classique
 Newton pour un e- dans un champs éléctrique uniforme:
 m a = force éléctrique - force de friction
@@ -66,8 +67,13 @@ Régime stationnaire -> V = vitesse de dérive
 
 densité de courant j = \sigma E
     où sigma = n_e e^2 \tau_m / m  <- formule de Drude
-      la conductivité
+      la conductivité *classique*
 
-*** 3.2 
+*** 3.2 Conductivité semi-classique
+
+densité de courant dans un cristal:
+  j = -e/Volume x somme sur les vecteurs d'ondes et les bandes
+    de \vec{v}_{K,n} g_{K,n}
+  avec g l'occupation de l'état |\vec{K},n>
 
 * Chapitre II - c
