@@ -64,6 +64,10 @@ m a = force éléctrique - force de friction
 m dV/dt = -eE - Vm/\tau_m
 Régime stationnaire -> V = vitesse de dérive 
 
+densité de courant j = \sigma E
+    où sigma = n_e e^2 \tau_m / m  <- formule de Drude
+    la conductivité
+
 *** 3.2 
 
 * Chapitre II - c
