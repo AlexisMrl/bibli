@@ -51,3 +51,19 @@ Interféromètre => déphasage induit par le chemin suivi
 
 La diffusion élastique ne produit pas de déphasage.
 
+
+*** 2.5 Longueur magnétique
+
+
+*** 2.6 Quelques valeurs numériques
+
+** 3 - Transport semi-classique
+*** 3.1 Conductivité classique
+Newton pour un e- dans un champs éléctrique uniforme:
+m a = force éléctrique - force de friction
+m dV/dt = -eE - Vm/\tau_m
+Régime stationnaire -> V = vitesse de dérive 
+
+*** 3.2 
+
+* Chapitre II - c
