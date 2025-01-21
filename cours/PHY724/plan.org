@@ -89,7 +89,7 @@ densité de courant dans un cristal:
     ...
     avec \point{\vec{r}} = \vec{v}_{K,n}  + +terme courbur de Berry+
 
-*** 3.3 Courant de dérive
+*** 3.3 Courant de dérive (E>0)
 
 On résout l'équation de Boltzmann pour E uniforme et B = 0
 Le résultat sera l'occupation g_{K,n} en fonction de E.
@@ -107,9 +107,7 @@ avec \sigma le *tenseur conductivité*,
 
 diférent de la formule de Drude.
 
-
-
-*** 3.4 Courants de diffusion
+*** 3.4 Courants de diffusion (relation d'Einstein)
 On suppose
 - pas de force sur les e-: \point{\vec{K}} = 0  (\vec{E}=0)
 - rien ne dépend du temps
@@ -119,7 +117,18 @@ en résolvant l'équation de Boltzmann on obtient \delta{f} que l'on remplace
 dans l'expression de j (3.2) et on trouve le courant de diffusion:
 j_\alpha = e D_{\alpha\beta} dn_e / dr_{\beta}
 
+et D_{alpha beta} = sigma_{alpha beta}/ (e² dn_e/dmu)  <- relation d'Einstein
+le tenseur de diffusion
+    mu le potentiel chimique
 
+i) Basse température (régime dégénéré) et mu = epsilon_F
+       la densité n_e = 1/V * somme d'heavyside (epsilon_F - E_kn)
+       dn_e / d epsilon_F = 1/V * somme de delta de Dirac = rho(epsilon_F)
+       -> rho la densité d'états par unité de volume
+    => D_ab = sigma_ab / (e² rho(epsilon_F))
 
+ii) régime non dégénéré:
+    n_e = 1/V somme de distribution Maxwell-Boltzmann
+    on obtient D_ab = sigma_ab * kBT / (e² n_e)
 
 
