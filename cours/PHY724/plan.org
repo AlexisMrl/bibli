@@ -82,11 +82,20 @@ densité de courant dans un cristal:
   [[https://www.desmos.com/calculator/mrkwlptxoe][fermi-dirac]]
 
   on a aussi \vec{j} = 0 lorsque le cristal respecte la symmétrie par inversion
-      du temps. (démo: E_{K,n} fonction paire en K, g_{K,n} et v_{K,n} aussi 
+      du temps. (démo: E_{K,n} fonction paire en K,
+      g_{K,n} (car à l'équilibre donc = fermi-dirac) et v_{K,n} impaires 
                   -> rien ne survie à la somme.)
 
 - Hors équilibre: g_{K,n} suis l'équation de Boltzman:
-  ...
+    ...
+    avec \point{\vec{r}} = \vec{v}_{K,n}  + +terme courbur de Berry+
 
+*** 3.3 Courant de dérive
+On résout l'équation de Boltzmann pour E uniforme et B = 0
+Le résultat sera l'occupation g_{K,n} en fonction de E.
 
-* Chapitre II - c
+Par approche perturbative, g = f + \delta f
+  -> dans la partie droite: (f+\delta f) - f  = \delta f
+...
+On arrive à une expression pour le *tenseur conductivité* \sigma,
+qui est différent de la formule de Drude.
