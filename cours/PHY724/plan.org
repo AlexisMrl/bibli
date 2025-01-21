@@ -89,7 +89,7 @@ densité de courant dans un cristal:
     ...
     avec \point{\vec{r}} = \vec{v}_{K,n}  + +terme courbur de Berry+
 
-*** 3.3 Courant de dérive (E>0)
+*** 3.3 Courant de dérive (E>0) (matrice de conductivité)
 
 On résout l'équation de Boltzmann pour E uniforme et B = 0
 Le résultat sera l'occupation g_{K,n} en fonction de E.
@@ -107,7 +107,7 @@ avec \sigma le *tenseur conductivité*,
 
 diférent de la formule de Drude.
 
-*** 3.4 Courants de diffusion (relation d'Einstein)
+*** 3.4 Courant de diffusion (E=0) (matrice de diffusion) (relation d'Einstein)
 On suppose
 - pas de force sur les e-: \point{\vec{K}} = 0  (\vec{E}=0)
 - rien ne dépend du temps
@@ -131,4 +131,24 @@ ii) régime non dégénéré:
     n_e = 1/V somme de distribution Maxwell-Boltzmann
     on obtient D_ab = sigma_ab * kBT / (e² n_e)
 
+*** 3.5 Courant total (dérive + diffusion)
+On trouve que j_tot = 1/e matrice sigma dr/dr\vec{r} (mu - eV)
+avec mu le potentiel chimique et donc
+(mu - eV) le potentiel electrochimique
+Alors, le courant avec cette approche semi-classique est proportionnel
+au gradient du potentiel electrochimique par la matrice de diffusion / e.
+
+*** 3.6 Cas spécial GE3D à T=0
+Avec l'approximation qu'une seule bande interesecte epsilon_F
+que E est isotrope
+    (càd que E_{\vec{K} n} = E_K  (module de K))
+alors
+    sigma = e² tau_{epsilon_F} n_e / m
+
+    la formule de Drude !
+
+
+*** Exercice: Magnétoconductivité dans un GE2D
+E en x et y, B en z, statiques et uniformes
+Approche perturbative, on trouve 
 
