@@ -1,7 +1,6 @@
 * Chapitre I - Concepts et outils de base
 
 ** 1 - Énergies caractéristiques
-
 *** 1.1 Énergie thermique
 - Pour T=1K, k_B*T \approx 0.1 meV
 
@@ -19,8 +18,8 @@
 - Énergie Zeeman
 - Énergie de cyclotron
 
-** 2 - Longueurs caractéristiques
 
+** 2 - Longueurs caractéristiques
 *** 2.1 Taille du système
 
 *** 2.2 Longueur de Fermi
@@ -57,9 +56,9 @@ La diffusion élastique ne produit pas de déphasage.
 
 *** 2.6 Quelques valeurs numériques
 
-** 3 - Transport semi-classique
 
-*** 3.1 Conductivité classique
+** 3 - Transport semi-classique
+*** 3.1 Conductivité classique (Drude)
 Newton pour un e- dans un champs éléctrique uniforme:
 m a = force éléctrique - force de friction
 m dV/dt = -eE - Vm/\tau_m
@@ -69,7 +68,7 @@ densité de courant \vec{j} = \sigma E
     où sigma = n_e e^2 \tau_m / m  <- formule de Drude
       la conductivité *classique*
 
-*** 3.2 Conductivité semi-classique
+*** 3.2 Conductivité semi-classique (Équation de Boltzmann)
 
 densité de courant dans un cristal:
   \vec{j} = -e/Volume x somme sur les vecteurs d'ondes et les bandes
@@ -99,9 +98,28 @@ Puis on pourra trouver \vec{j} (première eq de 3.2)
 Par approche perturbative, g = f + \delta f
   -> dans la partie droite: (f+\delta f) - f  = \delta f
 ...
-On arrive à une expression pour le *tenseur conductivité* \sigma,
-qui est différent de la formule de Drude.
+On arrive à une expression pour le courant:
+j_alpha = sigma_{alpha beta} E_beta  (somme sur beta)
+
+avec \sigma le *tenseur conductivité*,
+    = e^2/V somme sur les vevcteur d'onde et les couches
+        ( v_Kn^alpha v_Kn^beta tau_Kn (-dr f_kn / dr E_kn) )
+
+diférent de la formule de Drude.
+
+
 
 *** 3.4 Courants de diffusion
+On suppose
+- pas de force sur les e-: \point{\vec{K}} = 0  (\vec{E}=0)
+- rien ne dépend du temps
+- f_{\vec{K}, n} n'est plus uniforme -> gradient de densité d'e-
+
+en résolvant l'équation de Boltzmann on obtient \delta{f} que l'on remplace
+dans l'expression de j (3.2) et on trouve le courant de diffusion:
+j_\alpha = e D_{\alpha\beta} dn_e / dr_{\beta}
+
+
+
 
 
