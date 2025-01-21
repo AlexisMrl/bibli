@@ -77,7 +77,7 @@ densité de courant dans un cristal:
   avec g l'occupation de l'état |\vec{K},n>
 
 - À l'équilibre: g_{K,n} suis l'occupation de Fermi-Dirac:
-    g = f = 1 / [exp(\beta(E_{K,n} - \mu) + 1)]
+    g = f = 1 / [exp(\beta E_{K,n} - \mu) + 1)]
     avec mu le potential chimique
   [[https://www.desmos.com/calculator/mrkwlptxoe][fermi-dirac]]
 
@@ -91,11 +91,17 @@ densité de courant dans un cristal:
     avec \point{\vec{r}} = \vec{v}_{K,n}  + +terme courbur de Berry+
 
 *** 3.3 Courant de dérive
+
 On résout l'équation de Boltzmann pour E uniforme et B = 0
 Le résultat sera l'occupation g_{K,n} en fonction de E.
+Puis on pourra trouver \vec{j} (première eq de 3.2)
 
 Par approche perturbative, g = f + \delta f
   -> dans la partie droite: (f+\delta f) - f  = \delta f
 ...
 On arrive à une expression pour le *tenseur conductivité* \sigma,
 qui est différent de la formule de Drude.
+
+*** 3.4 Courants de diffusion
+
+
