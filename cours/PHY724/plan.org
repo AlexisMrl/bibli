@@ -17,6 +17,7 @@
 *** 1.7 Énergie associée au champs magnétique
 - Énergie Zeeman
 - Énergie de cyclotron
+h_bar w_c avec w_c = eB/m
 
 
 ** 2 - Longueurs caractéristiques
@@ -151,4 +152,8 @@ alors
 *** Exercice: Magnétoconductivité dans un GE2D
 E en x et y, B en z, statiques et uniformes
 Approche perturbative, on trouve 
-
+(i) la conductivité longitudinale diminue quand B augmente
+(ii) quand B suffisament grand (1T), sont effet devient significatif dans
+    la conductivité:
+    matrice sigma = sigma_0 / (1 + (w_c tau)² * matrice ((1 w_cTau) (w_cTau 1))
+    avec w_c la pulsation de cyclotron = eB/m
