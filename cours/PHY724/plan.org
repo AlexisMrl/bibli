@@ -139,7 +139,7 @@ avec mu le potentiel chimique et donc
 Alors, le courant avec cette approche semi-classique est proportionnel
 au gradient du potentiel electrochimique par la matrice de diffusion / e.
 
-*** 3.6 Cas spécial GE3D à T=0
+*** 3.6 Cas spécial GE3D à T=0 (retrouve Drude)
 Avec l'approximation qu'une seule bande interesecte epsilon_F
 que E est isotrope
     (càd que E_{\vec{K} n} = E_K  (module de K))
