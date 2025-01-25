@@ -1,3 +1,4 @@
+#+OPTIONS: ^:{}
 * Chapitre I - Concepts et outils de base
 
 ** 1 - Énergies caractéristiques
@@ -86,9 +87,10 @@ densité de courant dans un cristal:
       g_{K,n} (car à l'équilibre donc = fermi-dirac) et v_{K,n} impaires 
                   -> rien ne survie à la somme.)
 
-- Hors équilibre: g_{K,n} suis l'équation de Boltzman:
+- Hors équilibre: g_{*K*,n} suis l'équation de Boltzman:
     ...
-    avec \point{\vec{r}} = \vec{v}_{K,n}  + +terme courbur de Berry+
+    avec *ṙ* = *r*_{*K*,n}  + +terme courbur de Berry+
+
 
 *** 3.3 Courant de dérive (E>0) (matrice de conductivité)
 
@@ -155,5 +157,7 @@ Approche perturbative, on trouve
 (i) la conductivité longitudinale diminue quand B augmente
 (ii) quand B suffisament grand (1T), sont effet devient significatif dans
     la conductivité:
-    matrice sigma = sigma_0 / (1 + (w_c tau)² * matrice ((1 w_cTau) (w_cTau 1))
-    avec w_c la pulsation de cyclotron = eB/m
+    matrice sigma = σ_0 / (1 + (ω_c tau)² * ((1 τω_c)
+                                             (τω_c 1))
+
+    avec ω_c la pulsation de cyclotron = eB/m
