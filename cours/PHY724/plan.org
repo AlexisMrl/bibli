@@ -161,3 +161,14 @@ Approche perturbative, on trouve
                                              (τω_c 1))
 
     avec ω_c la pulsation de cyclotron = eB/m
+
+** 4 - GE2D
+
+*** 4.1 Diagramme de bandes (GaAs-AlGaAs)
+    
+  
+*** 4.2 Fonction d'onde et densité d'états
+Approximation puit triangulaire.
+    
+
+
