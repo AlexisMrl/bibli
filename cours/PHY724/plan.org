@@ -168,7 +168,7 @@ Approche perturbative, on trouve
     
   
 *** 4.2 Fonction d'onde et densité d'états
-Approximation puit triangulaire.
+Approximation puis triangulaire.
     
-
+** 5 - Matrice denstié
 
